@@ -40,7 +40,7 @@ class LoginController extends GetxController {
 
   void increment() => count.value++;
 
-  login() async {
+ login() async {
     loading(true);
     try {
       FocusScope.of(Get.context!).unfocus();//ngeclose keyboard
